@@ -1,0 +1,936 @@
+.body{
+    display: flexbox;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right:-8px;
+}
+ 
+
+ .navbar{
+     background: rgba(0, 0,0, 0.8) url("akku2.jpeg");
+     background-blend-mode: darken;
+     height: 70px;
+     position: sticky;
+     margin-top: -50px;
+     
+    
+ }
+ 
+ .leftnav{
+    max-width: 30%;
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 70px;
+}
+
+.leftnav ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+.leftnav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.leftnav ul li a img{
+    width: 40px;
+    margin-left: -13px;
+    margin-top:  16px;
+
+    border-radius: 4px;
+    border: 3px solid rgb(247, 240, 240);
+}
+
+.active, .leftnav ul li:hover{
+    background:none;
+    border-radius: 3px;
+}
+
+.submenu-1
+{
+    display: none;
+    margin-top: 50px;
+
+}
+
+.leftnav ul li:hover .submenu-1{
+    display: block;
+    position: absolute;
+    background: rgb(22, 19, 19);
+    margin-top: -4px;
+    margin-left: 15px;
+}
+
+.leftnav ul li:hover .submenu-1 ul{
+    display: block;
+    margin: 15px;
+}
+
+.leftnav ul li:hover .submenu-1 ul li{
+   width: 150px;
+   padding: 10px;
+   border-bottom: 1px dotted white;
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+
+}
+
+.leftnav ul li:hover .submenu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+.leftnav ul li:hover .submenu-1 ul li a:hover{
+    color: blue;
+}
+
+.midnav h4{
+    max-width: 50%;
+    margin-left: 340px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: -50px;
+}
+
+.rightnav a img{
+    width: 30px;
+    background: none;
+    margin-left: 1270px;
+    
+}
+
+.paras {
+    text-align: center;
+    margin-top: 40px;
+    height: 100px;
+    color: rgb(72, 90, 150);
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.subparas{
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: rgb(187, 59, 59);
+    height: 70px;
+}
+
+.subparas1{
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    height: 50px;
+
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.pic{
+margin: 50px;
+border: 20px solid rgb(236, 231, 231);
+border-radius: 5px;
+
+}
+
+.pic a img{
+    margin-bottom:15px;
+}
+
+.text{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4px;
+}
+
+.text a button{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.text2{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+
+}
+
+.text2 a button{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pic2{
+    margin: 50px; 
+    border: 20px solid rgb(236, 231, 231);
+}
+    
+.pic3{
+    margin: 50px; 
+    border: 20px solid rgb(236, 231, 231);
+}
+
+.text3{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.text3 a button{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.text4{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 23px;
+}
+
+.text4 a button{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.text5{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.text5 a button{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.text6{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.text6 a button{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.text7{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.text7 a button{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.text8{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+
+.text8 a button{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.text9{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 26px;
+}
+
+.text9 a button{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.picture{
+    display: flex;
+    margin-left: 200px;
+}
+
+.picture1 a img{
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+.picture2 a img{
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.picture3 a img{]
+margin-left: 500px;
+width: 380px;
+
+}
+
+.picture4 a img{
+    width: 220px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.footer{
+    height: 300px;
+    background: rgb(231, 228, 228);
+}
+
+.sublist{
+    margin-left: 60px;
+    padding-top: 30px;
+}
+
+.list ul{
+    margin-left: 50px;
+    list-style: none;
+    padding-top: -40px;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.footbar{
+    display: flex;
+}
+
+.midfoot a img{
+    margin-left: 300px;
+    width: 105px;
+    border-radius: 3px;
+    padding-top: 70px;
+}
+   
+
+.rightfoot a img{
+    margin-left:30px ;
+    width: 185px;
+    border-radius: 3px;
+    padding-top: 50px;
+}
+
+.footmenu{
+    background: rgba(0, 0,0, 0.8) url("akku2.jpeg");
+    background-blend-mode: darken;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding-top: 10px;
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    text-align:
+    center;
+}
+
+
+@media (max-width: 1024px){
+
+    .navbar{
+        height: 80px;
+        margin-right: -285px;
+    }
+
+    .rightnav a img{
+        width: 35px;
+        margin-left: 1180px;
+        
+    }
+    .footer{
+        margin-right: -285px;
+    }
+}
+
+@media (min-width:425px) and (max-width: 768px) {
+      
+    .navbar{
+        height: 80px;
+        margin-right: -8px;
+    }
+    .midnav h4{
+        margin-left: 168px;
+        font-size: 20px;
+    }
+
+    .picture{
+       
+        margin-left: 0px;
+    }
+     
+    .leftnav ul li a img{
+        width: 35px;
+        margin-left: -57px;
+        padding-top: 4px;
+    }
+
+    .rightnav a img{
+        width: 25px;
+        margin-left: 670px;
+        
+    }
+
+    .paras{
+        text-align: left;
+        height: 70px;
+        font-size: 30px;
+        margin-left: 100px;
+    }
+
+    .subparas{
+        text-align: left;
+        font-size: 15px;
+        margin-right: 50px;
+        margin-left: 100px;
+        height: 100px;
+    }
+
+    .subparas1{
+        font-size: 15px;
+        margin-left: 20px;
+
+    }
+
+    .photo{
+        margin-left: 0px;
+        height: 350px;
+
+    }
+
+    .pic{
+        margin-left: 50px;
+        padding-top: 10px;
+       border: none;
+       border-radius: 0px;
+       height: 160px;
+    }
+
+    .pic a img{
+        margin: 0px;
+        margin-bottom:8px;
+        width: 170px;
+    }
+
+    .text{
+        font-size: 11px;
+        margin-top: -1px;
+    }
+    .text a button{
+        width: 73px;
+        font-size: 12px;
+    }
+
+    .pic2{
+        margin: 30px;
+        padding-top: 25px;
+        border: none;
+        border-radius: 0px;
+        height: 160px;
+
+    }
+
+    .pic2 a img{
+        width: 170px;
+    }
+    
+    .text2{
+        font-size: 11px;
+        margin-top: 12px;
+        height: 80px;
+    }
+
+    .text2 a button{
+        width: 73px;
+        font-size: 12px;
+    }
+
+    .pic3{
+        margin: 0px;
+        padding-top: 50px;
+        border: none;
+        border-radius: 0px;
+        height: 160px;
+    }
+
+    .pic3 a img{
+        width: 170px;
+    }
+    
+    .text3{
+        font-size: 11px;
+        margin-top: 16px;
+    }
+
+    .text3 a button{
+        width: 73px;
+        font-size: 12px;
+    }
+
+    .text4{
+        font-size: 11px;
+        margin-top: 40px;
+        height: 80px;
+    }
+
+    .text4 a button{
+        width: 73px;
+        font-size: 12px;
+    }
+
+    .text5{
+        font-size: 11px;
+        margin-top: 2px;
+        height: 80px;
+    }
+
+    .text5 a button{
+        width: 73px;
+        font-size: 12px;
+    }
+
+    .text6{
+        font-size: 11px;
+        margin-top: 40px;
+        height: 80px;
+    }
+
+    .text6 a button{
+        width: 73px;
+        font-size: 12px;
+    }
+
+    .text7{
+        font-size: 11px;
+        margin-top: 0px;
+        height: 80px;
+    }
+
+    .text7 a button{
+        width: 73px;
+        font-size: 12px;
+    }
+
+    .text8{
+        font-size: 11px;
+        margin-top: 10px;
+        height: 80px;
+    }
+
+    .text8 a button{
+        width: 73px;
+        font-size: 12px;
+    }
+
+    .text9{
+        font-size: 11px;
+        margin-top: 11px;
+        height: 80px;
+    }
+
+    .text9 a button{
+        width: 73px;
+        font-size: 12px;
+    }
+
+    .picture1 a img{
+        margin-left: 200px;
+        padding-top: 100px;
+        width: 120px;
+    }
+    
+    .picture2 a img{
+        margin-left: 30px;
+        padding-top: 125px;
+        width: 120px;
+    }
+
+    .picture3 a img{
+        margin-left: 197px;
+        padding-top: 50px;
+        width: 200px;
+    }
+    
+    .picture4 a img{
+        margin-left: 0px;
+        padding-top: 20px;
+        width: 200px;
+    }
+
+    .footer{
+        margin-right: -8px;
+    }
+    .sublist{
+        margin-left: 30px;
+    }
+
+    .list ul{
+        margin-left: 0px;
+    }
+
+    .list a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+       
+    }
+
+    .midfoot a img{
+        margin-left: 160px;
+        width: 72px;
+       
+    }
+       
+    
+    .rightfoot a img{
+        margin-left: 6px ;
+        width: 100px;
+        padding-top: 67px;
+       
+    }
+
+    .footmenu{
+        
+        font-size: 8px;
+      margin-right: 0px;
+        height: 20px;
+        text-align: none;
+    }
+       
+
+}
+ 
+
+@media (max-width: 425px){
+
+    .navbar{
+        height: 85px;
+        margin-right: -500px;
+
+    }
+    .midnav h4{
+        margin-left: 220px;
+        font-size: 22px;
+    }
+
+   
+  
+
+    .rightnav a img{
+        width: 30px;
+        margin-left: 840px;
+        
+    }
+
+    .paras{
+       
+        height: 150px;
+        font-size: 40px;
+        margin-left: 40px;
+    }
+
+    .subparas{
+        text-align: left;
+        font-size: 20px;
+        margin-right: -110px;
+        margin-left: 46px;
+        height: 100px;
+    }
+
+    .subparas1{
+        font-size: 25px;
+      
+
+    }
+
+    .photo{
+        margin-left: 130px;
+        height: 400px;
+    }
+
+    .pic{
+        margin-left: 20px;
+        padding-top: 10px;
+       border: none;
+       border-radius: 0px;
+       height: 160px;
+    }
+
+    .pic a img{
+        margin: 0px;
+        margin-bottom:8px;
+        width: 170px;
+    }
+
+    .text{
+        font-size: 18px;
+      margin-top: 5px;
+    }
+    .text a button{
+        width: 120px;
+        font-size: 23px;
+    }
+
+    .pic2{
+        margin: 0px;
+        padding-top: 62px;
+        border: none;
+        border-radius: 0px;
+        height: 160px;
+
+    }
+
+    .pic2 a img{
+        width: 170px;
+    }
+    
+    .text2{
+        font-size: 18px;
+        margin-top: 12px;
+        height: 80px;
+    }
+
+    .text2 a button{
+        width: 120px;
+        font-size: 23px;
+    }
+
+    .pic3{
+        margin-left: 40px;
+        padding-top: 50px;
+        border: none;
+        border-radius: 0px;
+        height: 160px;
+    }
+
+    .pic3 a img{
+        width: 170px;
+    }
+    
+    .text3{
+        font-size: 18px;
+        margin-top: 22px;
+    }
+
+    .text3 a button{
+        width: 120px;
+        font-size: 23px;
+    }
+
+    .text4{
+        font-size: 18px;
+        margin-top: 40px;
+        height: 80px;
+    }
+
+    .text4 a button{
+        width: 120px;
+        font-size: 23px;
+    }
+
+    .text5{
+        font-size: 18px;
+        margin-top: 2px;
+        height: 80px;
+    }
+
+    .text5 a button{
+        width: 120px;
+        font-size: 23px;
+    }
+
+    .text6{
+        font-size: 18px;
+        margin-top: 40px;
+        height: 80px;
+    }
+
+    .text6 a button{
+        width: 120px;
+        font-size: 23px;
+    }
+
+    .text7{
+        font-size: 18px;
+        margin-top: 0px;
+        height: 80px;
+    }
+
+    .text7 a button{
+        width: 120px;
+        font-size: 23px;
+    }
+
+    .text8{
+        font-size: 18px;
+        margin-top: 10px;
+        height: 80px;
+    }
+
+    .text8 a button{
+        width: 120px;
+        font-size: 23px;
+    }
+
+    .text9{
+        font-size: 18px;
+        margin-top: 11px;
+        height: 80px;
+    }
+
+    .text9 a button{
+        width: 120px;
+        font-size: 23px;
+    }
+
+    .picture1 a img{
+        margin-left: 300px;
+        padding-top: 100px;
+        width: 120px;
+    }
+    
+    .picture2 a img{
+        margin-left: 30px;
+        padding-top: 125px;
+        width: 120px;
+    }
+
+    .picture3 a img{
+        margin-left: 75px;
+        padding-top: 50px;
+        width: 400px;
+    }
+    
+    .picture4 a img{
+        margin-left: 0px;
+        padding-top: 20px;
+        width: 200px;
+    }
+
+    .footer{
+     margin-right: -500px;
+     height: 360px;
+
+    }
+
+    .sublist{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .list ul{
+        margin-left: 20px;
+    }
+
+    .list a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+       
+    }
+
+    .midfoot a img{
+        margin-left: 160px;
+        width: 72px;
+       
+    }
+       
+    
+    .rightfoot a img{
+        margin-left: 6px ;
+        width: 100px;
+        padding-top: 67px;
+       
+    }
+
+    .footmenu{
+        
+        font-size: 8px;
+      margin-right: 0px;
+        height: 20px;
+        text-align: none;
+    }
+}
+
+
+@media (max-width:375px){
+    .navbar{
+        margin-right: -530px;
+    }
+
+    .picture{
+        margin-left: 0px;
+    }
+
+    .rightnav a img{
+        margin-left: 805px;
+
+    }
+
+    .paras{
+        margin-left: 5px;
+    }
+
+    .subparas{
+        margin-left: 122px;
+    font-size: 27px;
+    height: 280px;
+    }
+
+    .pic3{
+margin-top: 10px;
+    }
+
+    .footer{
+        margin-right: -530px;
+    }
+
+}
